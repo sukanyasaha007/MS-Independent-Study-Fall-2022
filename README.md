@@ -39,7 +39,7 @@ This is the project reposetory for Independent Study Fall 2022 at University of 
 - Gradually I am building design the atchitecture based on the NVIDIA paper. I am not replicating there entire atchitecture but just take the basic intuition since I do not have the same computation power as them. This would be a gradual and experimental process over next couple of weeks. 
 - Here is Nvidia's architecture-
 
-<img src="MS-Independent-Study-Fall-2022\images\NVIDIA-architecture.png" width="500" height="350">
+<img src="[MS-Independent-Study-Fall-2022\images\NVIDIA-architecture.png](https://github.com/sukanyasaha007/MS-Independent-Study-Fall-2022/blob/main/images/NVIDIA-architecture.png)" width="500" height="350">
 
 ### Week 5: Decide on Evaluation Metrics -
 
