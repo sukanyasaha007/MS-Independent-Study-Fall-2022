@@ -129,4 +129,5 @@ dmypy.json
 .pyre/
 
 data/.*png
+data/.*jpg
 */.ipynb_checkpoints
