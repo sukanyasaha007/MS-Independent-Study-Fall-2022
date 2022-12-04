@@ -39,7 +39,7 @@ This is the project reposetory for Independent Study Fall 2022 at University of 
 - Gradually I am building design the atchitecture based on the NVIDIA paper. I am not replicating there entire atchitecture but just take the basic intuition since I do not have the same computation power as them. This would be a gradual and experimental process over next couple of weeks. 
 - Here is Nvidia's architecture-
 
-<img src="..\MS-Independent-Study-Fall-2022\images\NVIDIA-architecture.png" width="500" height="350">
+<img src="images\NVIDIA-architecture.png" width="500" height="350">
 
 ### Week 5: Decide on Evaluation Metrics -
 
@@ -59,8 +59,8 @@ This is the project reposetory for Independent Study Fall 2022 at University of 
 ### Week 11: Explore different data augmentation techniques -
 - I used basic data augmentation techniques, such as cropping, flipping etc.
 
-<img src="output/track1.png" width="200" height="200" alt="Logo" title="Original Image"> 
- <img src="output/track1_cropped.png" width="200" height="200"> <img src="output/track1_flipped.png" width="200" height="200"> 
+<img src="output\track1.png" width="200" height="200" alt="Logo" title="Original Image"> 
+ <img src="output\track1_cropped.png" width="200" height="200"> <img src="output\track1_flipped.png" width="200" height="200"> 
 
 ### Week 12-14: Work on optimization, and hyper-parameter tuning, etc. -
 
