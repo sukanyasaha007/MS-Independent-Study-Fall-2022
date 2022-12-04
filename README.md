@@ -83,9 +83,7 @@ This is the project reposetory for Independent Study Fall 2022 at University of 
 
 - Here is the result
 
-<video width="320" height="240" controls>
-  <source src="output\output.mp4" type="video\mp4">
-</video>
+<video src='output\output.mp4' width=180>
 
 ### Week 15: Write a report( preferably IEEE format same as last IS report)
 - 
