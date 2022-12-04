@@ -55,8 +55,29 @@ This is the project reposetory for Independent Study Fall 2022 at University of 
 ### Week 9: Run experiments, Evaluate on other simulated environments -
 
 - Plan is to note parameters and setting for every experiment and compare outputs
-### Week 11: Explore different data augmentation techniques
 
-### Week 13: Work on optimization, and hyper-parameter tuning, etc.
+### Week 11: Explore different data augmentation techniques -
+- I used basic data augmentation techniques, such as cropping, flipping etc.
+
+<img src="output/track1.png" width="200" height="200" alt="Logo" title="Original Image"> 
+ <img src="output/track1_cropped.png" width="200" height="200"> <img src="output/track1_flipped.png" width="200" height="200"> 
+
+### Week 12-14: Work on optimization, and hyper-parameter tuning, etc. -
+
+- I spent this week on trying different neural network architechture and improving the model performance
+#### Final parameters:
+
+| Hyper-Parameters  | Values  |
+|---|---|
+|  Epochs |  5  |
+| Optimizer  | Adam   |
+| Learning Rate  |  0.001  |
+| Train-Test Split |  80-20%  |
+| Batch Size  |  64  |
+|  Loss Function |  MSE  |
+| Activation Function  |  RELU  |
+| Dropout  |  35%  |
+
+
 ### Week 15: Write a report( preferably IEEE format same as last IS report)
 
