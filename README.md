@@ -59,7 +59,7 @@ This is the project reposetory for Independent Study Fall 2022 at University of 
 ### Week 11: Explore different data augmentation techniques -
 - I used basic data augmentation techniques, such as cropping, flipping etc.
 
-<img src="output\track1.png" width="200" height="200" alt="Logo" title="Original Image"> 
+<img src="output\track1.png"> 
  <img src="output\track1_cropped.png" width="200" height="200"> <img src="output\track1_flipped.png" width="200" height="200"> 
 
 ### Week 12-14: Work on optimization, and hyper-parameter tuning, etc. -
