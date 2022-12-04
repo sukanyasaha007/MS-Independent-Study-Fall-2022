@@ -59,13 +59,14 @@ This is the project reposetory for Independent Study Fall 2022 at University of 
 ### Week 11: Explore different data augmentation techniques -
 - I used basic data augmentation techniques, such as cropping, flipping etc.
 
+
+
+<div class="image-container">
 <style>
   .image-container {
       display: flex;
   }
 </style>
-
-<div class="image-container">
 <figure>
   <img src="output\track1.PNG" width="200" height="200">
   <figcaption>Fig.1 - Original Image</figcaption>
