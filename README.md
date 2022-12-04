@@ -60,29 +60,10 @@ This is the project reposetory for Independent Study Fall 2022 at University of 
 - I used basic data augmentation techniques, such as cropping, flipping etc.
 
 <figure>
-  <img src="images\data-augmentation.PNG">
+  <img src="images\data-augmentation-grayscale.png">
   <figcaption>Fig.1 - Original Image</figcaption>
 </figure>
 
-<div class="image-container">
-<style>
-  .image-container {
-      display: flex;
-  }
-</style>
-<figure>
-  <img src="output\track1.PNG" width="200" height="200">
-  <figcaption>Fig.1 - Original Image</figcaption>
-</figure>
-<figure>
-  <img src="output\track1_cropped.PNG" width="200" height="200">
-  <figcaption>Fig.2 - Cropped Image</figcaption>
-</figure>
-<figure>
-  <img src="output\track1_flipped.PNG" width="200" height="200">
-  <figcaption>Fig.3 - Flipped Image</figcaption>
-</figure>
-</div>
 
 ### Week 12-14: Work on optimization, and hyper-parameter tuning, etc. -
 
