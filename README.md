@@ -59,8 +59,26 @@ This is the project reposetory for Independent Study Fall 2022 at University of 
 ### Week 11: Explore different data augmentation techniques -
 - I used basic data augmentation techniques, such as cropping, flipping etc.
 
-<img src="output\track1.png"> 
- <img src="output\track1_cropped.png" width="200" height="200"> <img src="output\track1_flipped.png" width="200" height="200"> 
+<style>
+  .image-container {
+      display: flex;
+  }
+</style>
+
+<div class="image-container">
+<figure>
+  <img src="output\track1.PNG" width="200" height="200">
+  <figcaption>Fig.1 - Original Image</figcaption>
+</figure>
+<figure>
+  <img src="output\track1_cropped.PNG" width="200" height="200">
+  <figcaption>Fig.2 - Cropped Image</figcaption>
+</figure>
+<figure>
+  <img src="output\track1_flipped.PNG" width="200" height="200">
+  <figcaption>Fig.3 - Flipped Image</figcaption>
+</figure>
+</div>
 
 ### Week 12-14: Work on optimization, and hyper-parameter tuning, etc. -
 
@@ -78,6 +96,11 @@ This is the project reposetory for Independent Study Fall 2022 at University of 
 | Activation Function  |  RELU  |
 | Dropout  |  35%  |
 
+- Here is the result
+
+<video width="320" height="240" controls>
+  <source src="output\output.mp4" type="video/mp4">
+</video>
 
 ### Week 15: Write a report( preferably IEEE format same as last IS report)
-
+- 
