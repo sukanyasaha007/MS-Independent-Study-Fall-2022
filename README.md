@@ -61,7 +61,7 @@ This is the project reposetory for Independent Study Fall 2022 at University of 
 - I used basic data augmentation techniques, such as cropping, flipping etc.
 
 <figure>
-  <img src="images\data-augmentation-grayscale.png" height='200'>
+  <img src="images\data-augmentation.png" height='200'>
   <figcaption>Fig.1 - Original Image</figcaption>
 </figure>
 
