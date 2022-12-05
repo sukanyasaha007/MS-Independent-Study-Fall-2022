@@ -55,6 +55,7 @@ This is the project reposetory for Independent Study Fall 2022 at University of 
 ### Week 9: Run experiments, Evaluate on other simulated environments -
 
 - Plan is to note parameters and setting for every experiment and compare outputs
+- For flipping, I used each center camera image, flipped it and used it with a negative steering angle of that of the original steering angle of the center image. This flipping of the images technique helped to balance the dataset so that model will not be biased towards any specific condition.
 
 ### Week 11: Explore different data augmentation techniques -
 - I used basic data augmentation techniques, such as cropping, flipping etc.
