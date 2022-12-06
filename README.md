@@ -33,40 +33,43 @@ This is the project reposetory for Independent Study Fall 2022 at University of 
 - The tool was created by Udacity using Unity for there nanodegree students, later they open sourced it for boarder research community
 - To generate the dataset, one needs to play the game in the simulator in driving/training mode. This was particularly challenging for me
 
-### Week 3 : Training the model -
+### Week 3: Training the model -
 
-- The idea is to start with simple model
-- Gradually I am building design the atchitecture based on the NVIDIA paper. I am not replicating there entire atchitecture but just take the basic intuition since I do not have the same computation power as them. This would be a gradual and experimental process over next couple of weeks. 
-- Here is Nvidia's architecture-
+- The underlying architecture used here is based on the NVIDIA paper
 
 <img src="images\NVIDIA-architecture.png" width="500" height="350">
 
-### Week 5: Decide on Evaluation Metrics -
+- The paper described the network of 9 layers, including a normalization layer, 5 convolutional layers, and 3 fully connected layers.
+- They trained the weights of our network to minimize the mean squared error between the steering command output by the network and the command of either the human driver or the adjusted steering command for off-center and rotated images
+- They used a striding window of 2x2 stride in the first three layers and a kernel of size 5x5. The last two convolution layers had 3x3 kernel size and no striding. The fully connected layers are designed to function as a controller for steering
+- They achieved great results through this model. However, this sophisticated architecture would be excessive for the dataset I am working with. Hence, I would focus on a simpler network of fewer convolution layers
+
+### Week 4: Decide on Evaluation Metrics -
 
 - The model training based on the images captured from driving the car
 - The output that model trains on is the steering angle
-- Here, I am keeping the evaluation metrics simple to accuracy and F1 score
+- Here, I am keeping the evaluation metrics simple to MSE (Mean Squared Error)
 
-### Week 7: Improve The Network -
+### Week 5-9: Improve The Network -
 
-- Next couple of weeks' goal is improve the basic model and work on the architecture
-- Tune the hyper parameter which might take longer than i originally planned for
+- Originally I planned to use the NVIDIA architecture but I was taking a long time to train even on just 1 epoch. It actually broke my Google Colab limits. So, I used the modified architecture -
 
-### Week 9: Run experiments, Evaluate on other simulated environments -
+<img src="images\simplified-NVIDIA-architecture.png" width="500" height="150">
 
-- Plan is to note parameters and setting for every experiment and compare outputs
-- For flipping, I used each center camera image, flipped it and used it with a negative steering angle of that of the original steering angle of the center image. This flipping of the images technique helped to balance the dataset so that model will not be biased towards any specific condition.
+- For a car to identify steering angles, it is important to identify features like road edges. In CNN such high-level features are extracted at initial layers hence, the layers have been reduced from the NVIDIA CNN model to first a three dense layers, then to two convolution layers and two dense layers and finally to finally to one convolution layer and one dense layer without compromising performance but reducing the training time of around 10- 15 minutes
 
-### Week 11: Explore different data augmentation techniques -
+### Week 10-12: Run experiments, Explore different data augmentation techniques -
+
 - I used basic data augmentation techniques, such as cropping, flipping etc.
+- For flipping, I used the generated center camera images, flipped them and used them with a negative steering angle of that of the original steering angle of the center image. This flipping of the images technique helped to balance the dataset so that model will not be biased towards any specific condition.
+- For cropping step, I removed 60px from the top and 20px from the bottom keeping the original steering angel values. Since model training does not require surrounding details such as natural scenarios, sky, etc. reduced image ratio helped with model training efficiency
 
 <figure>
   <img src="images\data-augmentation.png" height='200'>
   <figcaption>Fig.1 - Original Image</figcaption>
 </figure>
 
-
-### Week 12-14: Work on optimization, and hyper-parameter tuning, etc. -
+### Week 13-14: Work on optimization, and hyper-parameter tuning, etc. -
 
 - I spent this week on trying different neural network architechture and improving the model performance
 #### Final parameters:
@@ -88,4 +91,5 @@ https://user-images.githubusercontent.com/20263544/205519474-c886c371-60ba-455c-
 
 
 ### Week 15: Write a report( preferably IEEE format same as last IS report)
-- 
+- Here is the report attached
+
