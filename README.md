@@ -9,9 +9,9 @@ This is the project reposetory for Independent Study Fall 2022 at University of 
 
 ## Bi- Weekly Plan -
 
-- 8/22/2022	: Data simulation and generation and Data loader
-- 9/5/2022	: Start implementing the NVIDIA architecture
-- 9/19/2022	: Explore different prediction metrics apart from the ones mentioned in the paper
+- 08/22/2022	: Data simulation and generation and Data loader
+- 09/5/2022	: Start implementing the NVIDIA architecture
+- 09/19/2022	: Explore different prediction metrics apart from the ones mentioned in the paper
 - 10/3/2022	: Explore on different architectures suitable in comparison to the current architecture
 - 10/17/2022 : Run experiments, Evaluate on other simulated environments(if time permits)
 - 10/31/2022 : Explore different data augmentation techniques
