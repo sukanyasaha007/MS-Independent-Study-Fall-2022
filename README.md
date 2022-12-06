@@ -92,4 +92,5 @@ https://user-images.githubusercontent.com/20263544/205519474-c886c371-60ba-455c-
 
 ### Week 15: Write a report( preferably IEEE format same as last IS report)
 - Here is the report attached
+[MS_Independent_Study_Fall_2022_Report.pdf](https://github.com/sukanyasaha007/MS-Independent-Study-Fall-2022/files/10162453/MS_Independent_Study_Fall_2022_Report.pdf)
 
